@@ -1,0 +1,36 @@
+
+
+1# 
+upload folder dan file di gtihub
+git init
+git add README.md
+git commit -m "first commit" //git commit -m "membuat folder-1"
+git branch -M main
+git remote add origin https://github.com/yandre-dle/belajar-github.git
+git push -u origin main
+
+
+2#
+update upload folder-2
+git add .
+git commit -m "first commit" //git commit -m "membuat folder-2"
+git push https://github.com/yandre-dle/belajar-github.git
+
+3#
+menambah file di folder-2
+git add .
+git commit -m "first commit" //git commit -m "menambah keterangan 7.text"
+git push https://github.com/yandre-dle/belajar-github.git
+
+4#
+menambah  file di antara folder-1 dan folder-2
+git add .
+git commit -m "first commit" //git commit -m "menambah file keterangan 9.text"
+git push https://github.com/yandre-dle/belajar-github.git
+
+5#
+remove file di antara folder-1 dan folder-2
+===
+git add .
+git commit -m "first commit" //git commit -m "hapus file keterangan 9.text"
+git push https://github.com/yandre-dle/belajar-github.git
