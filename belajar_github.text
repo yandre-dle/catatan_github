@@ -3,8 +3,8 @@
 1# 
 upload folder dan file di gtihub
 git init
-git add README.md
-git commit -m "first commit" //git commit -m "membuat folder-1"
+git add README.md // git add .
+git commit -m "first commit" // git commit -m "membuat folder-1"
 git branch -M main
 git remote add origin https://github.com/yandre-dle/belajar-github.git
 git push -u origin main
